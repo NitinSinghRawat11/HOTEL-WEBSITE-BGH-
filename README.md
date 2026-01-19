@@ -1,16 +1,35 @@
-# React + Vite
+Technical Highlights
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Component-Based Architecture: Built with React.js, utilizing functional components and hooks for clean, maintainable, and reusable code.
 
-Currently, two official plugins are available:
+Utility-First Styling: Leveraging Tailwind CSS for rapid UI development, ensuring a highly responsive layout and consistent design tokens (typography, spacing, and color palette).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Direct Communication Integration: Features a custom-built, floating WhatsApp Action Button (FAB) that utilizes dynamic URI encoding to facilitate instant guest enquiries.
 
-## React Compiler
+Optimized UI/UX:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern Typography: A sophisticated pairing of Serif (for headings) and Sans-Serif (for readability) fonts.
 
-## Expanding the ESLint configuration
+Visual Hierarchy: Strategic use of white space, high-quality imagery, and subtle hover effects to guide user attention.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Lucide Iconography: Integrated vector-based icons for a lightweight and crisp visual experience.
+
+🛠️ Tech Stack
+
+Framework: React.js
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+Deployment-Ready: Optimized for Vercel, Netlify, or GitHub Pages.
+
+✨ Features
+
+Responsive Navigation: A glassmorphism-inspired sticky navbar with mobile-responsive toggles.
+
+Immersive Hero Section: High-impact visual gateway with clear Calls to Action (CTAs).
+
+Showcase Gallery: Grid-based room and suite preview component.
+
+WhatsApp Concierge: A persistent floating button with a hover-state tooltip, providing a direct bridge between the guest and the resort management.
